@@ -4,7 +4,7 @@ const pets = [
   { name: "Jasper", type: "dog", bornOn: 2016 }
 ];
 
-function getAge(pets) {
+const getAge=(pets)=> {
   return new Date().getFullYear() - pets.bornOn;
 }
 
